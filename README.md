@@ -24,6 +24,6 @@ If you are a sophisticated Jenkins user you can monitor, build, test and deploy 
 
 
 ## Jenkins Setup
-If you are using the project setup from above you will want to also use the ***sample_jenkins_build.sh*** provided in the repo and add this (paste the contents into) to the build step of your Jenkins project.
+If you are using the project setup from above you will want to also use the ***jenkins_build.sh*** provided in the repo and add this (or paste the contents into) to the build step of your Jenkins project.
   
   
