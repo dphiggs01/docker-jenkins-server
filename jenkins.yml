@@ -1,16 +1,8 @@
-identidock:
+continuous-int:
    build: .
    expose:
-      - "9090"
+      - "8080"
 
-environment:
-   ENV: PROD
-   links:
-      - dnmonster
-      - redis
+   environment:
+      - ENV=PROD
 
-dnmonster:
-   image: amouat/dnmonster:1.0
-
-redis:
-   image: redis:3.0
