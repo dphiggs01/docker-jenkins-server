@@ -9,14 +9,15 @@ $SUDO docker-compose $COMPOSE_ARGS rm --all --force -v
 
 
 #build the system
-$SUDO docker-compose $COMPOSE_ARGS build --no-cache
+#$SUDO docker-compose $COMPOSE_ARGS build --no-cache 
+$SUDO docker-compose $COMPOSE_ARGS build 
 $SUDO docker-compose $COMPOSE_ARGS up -d --remove-orphans
 
 
 #Run unit tests
 # ### We have no unit tests to build Jenkins image ### #
 #$SUDO docker-compose $COMPOSE_ARGS run --no-deps --rm -e ENV=UNIT {{SERVICE_NM}}
-#ERR=$?
+ERR=$?
 
 #Run system test if unit tests passed
 if [ $ERR -eq 0 ]; then
