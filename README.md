@@ -1,10 +1,14 @@
-# Read Me
+# Supported tags and respective `Dockerfile` links
+
+-	[`newest`, `8fb7b60` (*Dockerfile*)](https://github.com/dphiggs01/docker-jenkins-server/blob/master/Dockerfile)
+
+# Continuous Integration
 This project creates a simple Docker Container to perform Continuous integration with Jenkins.
 
 It is based on content from the book [Using Docker by Adrian Mouat](https://www.amazon.com/Using-Docker-Developing-Deploying-Containers/dp/1491915765)
 
 
-## Docker Container Setup
+## How to use this image
 ***Clone*** this project into a local machine, ensure docker is running and execute the following to get your continuous integration environment up and running quickly.
 
 ```
